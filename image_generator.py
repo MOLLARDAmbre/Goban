@@ -74,7 +74,7 @@ class Generator:
         self.writer = ImageDraw.Draw(self.img)
         self.make_goban()
         self.draw_stones()
-        self.img.show()
+        self.img.save("temp.png")
 
 
 class ScoreGenerator(Generator):
