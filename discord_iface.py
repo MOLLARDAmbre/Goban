@@ -137,4 +137,4 @@ async def on_message(message):
         await interface.bad_command()
 
 
-client.run('NzYwODIwOTA0ODQ2MTY0MDE5.X3Rnrw.QLIe-yOIJspMQcoaPXGHJ8pBvsY')
+client.run('Your token here')
